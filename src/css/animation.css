@@ -1,0 +1,46 @@
+/*Animation file */
+
+
+.loadPage1{
+    transform: translateY(5%);
+}
+.removePage1{
+    transform: translateY(-100%);
+}
+.loadPage2{
+    transform: translateY(-95%);
+}
+.removePage2{
+    transform: translateY(100%);
+}
+.loadPage3{
+    transform: translateY(-195%);
+}
+.removePage3{
+    transform: translateY(0%);
+}
+
+
+.popUpClosed{
+    height: 0px;
+    z-index: -100;
+}
+.popUpOpen{
+    transform-origin: 50% 0%;
+    animation: openPopUp 0.25s ease-in-out;
+}
+.popupCLose{
+    transform-origin: 50% 0%;
+    animation: closePopUp 0.25s ease-in-out;
+    opacity: 0;
+}
+
+
+@keyframes openPopUp {
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+@keyframes closePopUp {
+    from{opacity: 1; z-index: 1;}
+    to{opacity: 0; z-index: -1;}
+}

@@ -1,0 +1,94 @@
+/* Pop ups */
+/* Products Pop up */
+#productsPopupContainerOut{
+    position: absolute;
+    width: 60vw;
+    padding-top: 20px;
+    margin-top: 40px;
+    margin-left: 25vw;
+    border: none;
+    overflow: hidden;
+
+}
+#productsPopupContainerOut #productsPopupContainerIn{
+    height: 500px;
+    background-color: var(--bgGray);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    border-radius: 20px;
+}
+#productsPopupContainerOut #productsPopupContainerIn #productPopupNavTab{
+    width: 30%;
+    padding-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+#productsPopupContainerOut #productsPopupContainerIn #productPopupNavTab .productsPopupNavLink{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 3px;
+    padding-left: 6px;
+}
+#productsPopupContainerOut #productsPopupContainerIn #productPopupNavTab .productsPopupNavLink:hover{
+    background-color: white;
+    cursor: pointer;
+}
+#productsPopupContainerOut #productsPopupContainerIn #productPopupNavTab .productsPopupNavLink h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+#productsPopupContainerOut #productsPopupContainerIn #productPopupNavTab .productsPopupNavLink p{
+    color: var(--textGray);
+    font-weight: 500;
+}
+#productsPopupContainerOut #productsPopupContainerIn #productPopupLinksContainer{
+    width: 70%;
+    height: 100%;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    padding-top: 20px;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink{
+    display: flex;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink:hover{
+    cursor: pointer;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink span{
+    width: 20%;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink div{
+    width: 80%;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink div h6{
+    font-size: 1rem;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink div h6 span{
+    font-size: 1rem;
+    color: white;
+}
+#productsPopupContainerOut #productsPopupContainerIn .pplBlock .pplLink div p{
+    color: var(--textGray);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* arrow amination */
+
+.pplLink:hover div h6 span{
+    color: black!important;
+}

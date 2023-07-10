@@ -1,0 +1,83 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;700;800;900&display=swap');
+
+
+/* Common css */
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+:root{
+    --textGray:#a3a3a3;
+    --bgGray:#e5e5e5;
+}
+
+/* Navbar CSS */
+#navBarContainer{
+    position: absolute;
+    z-index: 10;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 30px;
+}
+
+/* Navbar Logo */
+#navBarContainer #logo{
+    width: 20%;
+}
+#navBarContainer #logo a{
+    font-size: 2rem;
+    font-weight: 650;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar link heads */
+#navBarContainer #navHeads{
+    width: 40%;
+}
+#navBarContainer #navHeads ul{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    height: 100%;
+}
+#navBarContainer #navHeads ul li:hover{
+    cursor: pointer;
+    color: var(--textGray);
+}
+
+/* Navbar signIn btn */
+#navBarContainer #signIn {
+    text-align: end;
+    width: 20%;
+}
+#navBarContainer #signIn #signInBtn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d5d1d147;
+    color: white;
+    font-size: 1.1rem;
+    font-weight:600;
+}
+#navBarContainer #signIn #signInBtn:hover{
+    cursor: pointer;
+}
+/* hero Section BG */
+#heroBg{
+    position: fixed;
+    width: 100%;
+    z-index: -10;
+    overflow: hidden;
+    clip-path: polygon(0 0, 100% 0, 100% 50%, 0 70%);
+    height: 80vh;
+}

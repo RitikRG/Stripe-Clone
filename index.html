@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- General Stylesheet -->
+    <link rel="stylesheet" href="./src/css/style.css">
+    <!-- Product popup CSS -->
+    <link rel="stylesheet" href="./src/css/productPopup.css">
+    <!-- Solutions PopupCss -->
+    <link rel="stylesheet" href="./src/css/solutionPopup.css">
+    <!-- font Awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Animation css -->
+    <link rel="stylesheet" href="./src/css/animation.css">
+    <title>Stripe</title>
+</head>
+<body>
+    <!-- navbar Container start -->
+    <div id="navBarContainer">
+        <div id="logo"><a href="#">stripe</a></div>
+        <div id="navHeads">
+            <ul>
+                <li id="productLink">Products</li>
+                <li id="solutionLink">Solutions</li>
+                <li>Developers</li>
+                <li>Resources</li>
+                <li>Pricing</li>
+            </ul>
+        </div>
+        <div id="signIn"><button id="signInBtn">Sign In</button></div>
+    </div>
+
+        <!-- navbar popups -->
+
+        <!-- Product pop up -->
+        <div id="productsPopupContainerOut" class="popUpClosed">
+            <div id="productsPopupContainerIn">
+                <div id="productPopupNavTab">
+                    <div class="productsPopupNavLink" id="ppl1">
+                        <h6>Global Payments</h6>
+                        <p>Accept Payments online, in person or through your platform</p>
+                    </div>
+                    <div class="productsPopupNavLink" id="ppl2">
+                        <h6>Revenue And Financial Management</h6>
+                        <p>Atomate revenue collection and finance</p>
+                    </div>
+                    <div class="productsPopupNavLink" id="ppl3">
+                        <h6>Banking-as-a Service</h6>
+                        <p>Embed financial service in your product or platform</p>
+                    </div>
+                </div>
+                <div id="productPopupLinksContainer">
+                    <div class="pplBlock" id="GpBlock">
+                        <div class="pplLink" id="ppl4">
+                            <span style="color: #c68caa;"><i class="fa-solid fa-layer-group"></i></span>
+                            <div>
+                                <h6>Payments <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Online Payments</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl5">
+                            <span style="color: #12b9d5;"><i class="fa-solid fa-user-large"></i></span>
+                            <div>
+                                <h6>Identity <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Online Identity verifiction</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl6">
+                            <span style="color: #4e51f0;"><i class="fa-solid fa-credit-card"></i></span>
+                            <div>
+                                <h6>Checkout <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Pre-built payments page.</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl7">
+                            <span style="color: #874ced;"><i class="fa-solid fa-credit-card"></i></span>
+                            <div>
+                                <h6>Elements <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Customizable payments UIs.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pplLink" id="ppl8">
+                            <span style="color: #da1c1c;"><i class="fa-solid fa-code"></i></span>
+                            <div>
+                                <h6>Payment Links <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>No code Payments</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl9">
+                            <span style="color: #00aecf;"><i class="fa-solid fa-satellite-dish"></i></span>
+                            <div>
+                                <h6>Radar <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Risk and Fraud Management</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl10"> 
+                            <span style="color: #fac500;"><i class="fa-solid fa-globe"></i></span>
+                            <div>
+                                <h6>Connect <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Payments for platforms</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl11">
+                            <span style="color: #a68af9;"><i class="fa-solid fa-receipt"></i></span>
+                            <div>
+                                <h6>Billing <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Subscription Management</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl12">
+                            <span style="color: #3fdc79;"><i class="fa-solid fa-scroll"></i></span>
+                            <div>
+                                <h6>Invoicing <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Online Invoices</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl13">
+                            <span style="color: #8345ed;"><i class="fa-solid fa-terminal"></i></span>
+                            <div>
+                                <h6>Terminal <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>In-person Payments</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl14">
+                            <span style="color: #06b6d4;"><i class="fa-solid fa-coins"></i></span>
+                            <div>
+                                <h6>Financial Connections <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Linked Financial Data</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pplBlock" id="RFBlock">
+                        <div class="pplLink" id="ppl15">
+                            <span style="color: #c68caa;"><i class="fa-solid fa-receipt"></i></span>
+                            <div>
+                                <h6>Billing <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Subscription Management</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl16">
+                            <span style="color: #12b9d5;"><i class="fa-solid fa-scroll"></i></span>
+                            <div>
+                                <h6>Invoicing <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Online Invoices</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl17">
+                            <span style="color: #4e51f0;"><i class="fa-solid fa-chart-pie"></i></span>
+                            <div>
+                                <h6>Taxes <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Sales Tax and Vat Automation</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl18">
+                            <span style="color: #874ced;"><i class="fa-solid fa-pen-to-square"></i></span>
+                            <div>
+                                <h6>Revenue Recognition <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Accounting Automation</p>
+                            </div>
+                        </div>
+                        
+                        <div class="pplLink" id="ppl19">
+                            <span style="color: #da1c1c;"><i class="fa-brands fa-figma"></i></span>
+                            <div>
+                                <h6>Sigma <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Custom Reports</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl20">
+                            <span style="color: #00aecf;"><i class="fa-solid fa-timeline"></i></span>
+                            <div>
+                                <h6>Data Pipeline <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Data management warehouse Sync</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl21"> 
+                            <span style="color: #fac500;"><i class="fa-brands fa-atlassian"></i></span>
+                            <div>
+                                <h6>Atlas <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Startup incorporation</p>
+                            </div>
+                        </div>
+                        <div class="pplLink" id="ppl22">
+                            <span style="color: #a68af9;"><i class="fa-solid fa-earth-asia"></i></span>
+                            <div>
+                                <h6>Climate <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Carbon Removal</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="pplBlock" id="BaSBlock">
+                        <div class="pplLink" id="ppl23"> 
+                            <span style="color: #fac500;"><i class="fa-solid fa-globe"></i></span>
+                            <div>
+                                <h6>Connect <span><i class="fa-solid fa-arrow-right"></i></span> </h6>
+                                <p>Payments for platforms</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Solutions popup -->
+        <div id="solutionsPopupContainerOut" class="popUpClosed">
+            <div id="solutionsPopupContainerIn">
+                <!-- SPCB= solutions popup container block -->
+                <div id="SPCB1">
+                    <div id="SPCB1Head">USE CASES</div>
+                    <div id="SPCB1LinksContainer">
+                        <div class="SPL"><a href="#"> <span><i class="fa-regular fa-building"></i></span>&nbsp; Enterprises</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-layer-group"></i></span>&nbsp; Platforms</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-rotate"></i></span>&nbsp; SaaS</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-dumpster"></i></span>&nbsp; Ecommerce</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-shop"></i></span>&nbsp; Marketplaces</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-wallet"></i></span>&nbsp; Crypto</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-lightbulb"></i></span>&nbsp; Creator Economy</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-chart-pie"></i></span>&nbsp; Embedded Finance</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-lines-leaning"></i></span>&nbsp; Finance Automation</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-globe"></i></span>&nbsp; Global Business</a></div>
+                    </div>
+                </div>
+                <div id="SPCB2">
+                    <div id="SPCB2Head">INTEGRATIONS & CUSTOM SOLUTIONS</div>
+                    <div id="SPC2LinksContainer">
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-square-plus"></i></span>&nbsp; App Marketplace</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-book-open-reader"></i></span>&nbsp; Partner Ecosystem</a></div>
+                        <div class="SPL"><a href="#"> <span><i class="fa-solid fa-comments"></i></span>&nbsp; Professional Services</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- navbar Container end -->
+
+
+    <!-- Hero Section starts -->
+    <div id="heroBg">
+        <video src="./assets/primarybg.mp4" autoplay loop muted ></video>
+    </div>
+
+
+
+    <!-- Hero Section End -->
+
+    <!-- JS -->
+    <script src="./src/js/main.js"></script>
+    <!-- product popup scroll JS -->
+    <script src="./src/js/scrollEff.js"></script>
+    <!-- Popup Open JS -->
+    <script src="./src/js/popUp.js"></script>
+    
+</body>
+</html>

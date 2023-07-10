@@ -1,0 +1,62 @@
+/* solution popup */
+#solutionsPopupContainerOut{
+    position: absolute;
+    width: 30vw;
+    margin-top: 40px;
+    padding-top: 20px;
+    left: 35%;
+    height: auto;
+}
+#solutionsPopupContainerOut #solutionsPopupContainerIn{
+    background-color: white;
+    padding: 10px 5px 5px 5px;
+    border-radius: 10px;
+}
+#solutionsPopupContainerOut #solutionsPopupContainerIn #SPCB1{
+    padding: 0px 5px 5px 5px;
+    margin-bottom: 10px;
+}
+#solutionsPopupContainerOut #solutionsPopupContainerIn #SPCB1 #SPCB1Head{
+    color: var(--textGray);
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+#solutionsPopupContainerOut #solutionsPopupContainerIn #SPCB1 #SPCB1LinksContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    padding-top: 10px;
+}
+
+.SPL a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.85rem;
+    font-weight: 550;
+}
+.SPL:hover  a span{
+    color: black;
+}
+.SPL span{
+    color: var(--textGray);
+    font-size: 0.95rem;
+} 
+#solutionsPopupContainerOut #solutionsPopupContainerIn #SPCB2{
+    background-color: var(--bgGray);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+#solutionsPopupContainerOut #solutionsPopupContainerIn #SPCB2 #SPCB2Head{
+    font-size: 0.85rem;
+    color: var(--textGray);
+    font-weight: 550;
+    margin-bottom: 8px;
+}
+#solutionsPopupContainerOut #solutionsPopupContainerIn #SPCB2 #SPC2LinksContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr ;
+    row-gap: 10px;
+}
