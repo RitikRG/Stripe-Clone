@@ -1,0 +1,11 @@
+:root{
+    --section2Bg:#0a2540;
+}
+#section2Out{
+    width: 100%;
+    position: absolute;
+    height: 800px;
+    clip-path: polygon(100% 0, 100% 63%, 0 100%, 0 29%);
+    background-color: var(--section2Bg);
+    top: 280vh;
+}

@@ -1,0 +1,115 @@
+:root{
+    --bgBlue:#f6f9fc;
+    --sectionPurple:#635bff;
+}
+#section1Out{
+    position: absolute;
+    top: 150vh;
+    width: 100vw;
+    background-color: var(--bgBlue);
+    transition: all 0.25s;
+}
+#section1{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding: 30px 0px;
+}
+#section1Text{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+#section1Text h6{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+    color: var(--sectionPurple);
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+#section1TextBlock1 h2{
+    font-size: 1.75rem;
+    font-weight: 550;
+}
+#section1TextBlock1 p{
+    color: var(--textGray);
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding-top: 30px;
+    width: 90%;
+}
+#section1TextBlock1 p a{
+    text-decoration: none;
+    color: var(--sectionPurple);
+    transition: all 0.25s;
+}
+#section1TextBlock1 p a:hover{
+    color: black;
+}
+#s1Btn{
+    background-color: var(--sectionPurple);
+    color: white;
+    margin-top: 20px;
+}
+#section1TextBlock2{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    color: var(--textGray);
+    font-weight: 500;
+    font-size: 1.1rem;
+    padding-top: 25px;
+    width: 90%;
+}
+#section1TextBlock2 p a{
+    text-decoration: none;
+    color: var(--sectionPurple);
+    transition: all 0.25s;
+}
+#section1TextBlock2 p a:hover{
+    color: black;
+}
+/* section 1 display region */
+#section1Display{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    margin-top: 60px;
+    column-gap: 30px;
+}
+#card video{
+    border-radius: 15px;
+    box-shadow: 0px 35px 31px -17px rgba(0,0,0,0.56);
+
+}
+#display1 video{
+    border-radius: 8px;
+    box-shadow: 0px 35px 31px -17px rgba(0,0,0,0.56);
+}
+#calculator{
+    transform: translateY(-25%);
+}
+#calculator img{
+    border-radius: 40px;
+    box-shadow: 0px 35px 31px -17px rgba(0,0,0,0.56);
+
+}
+#mobile{
+    transform: translateY(-40%);
+    text-align: center;
+}
+#mobile video{
+    border-radius: 35px;
+    box-shadow: 0px 35px 57px 0px rgba(0,0,0,0.75);
+
+}
+
+#display2{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    transform: translateY(-10%);
+}
+#display2 img{
+    border-radius: 8px;
+}
