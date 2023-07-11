@@ -1,0 +1,38 @@
+#resourcePopupContainerOut{
+    position: absolute;
+    width: 25vw;
+    margin-top: 50px;
+    padding-top: 20px;
+    left: 50%;
+}
+#resourcePopupContainerIn{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+#RPCBlock1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+    padding: 20px 5px;
+}
+#RPCBlock2{
+    display: grid;
+    background-color: var(--bgGray);
+    padding: 20px 5px;
+    row-gap: 5px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.RPL a{
+    text-decoration: none;
+    color: black;
+}
+.RPL a span{
+    color: var(--textGray);
+    margin-right: 5px;
+}
+.RPL a:hover span{
+    color: black;
+}

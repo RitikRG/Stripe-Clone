@@ -1,0 +1,83 @@
+#documentationPopupContainerOut{
+    position: absolute;
+    width: 30vw;
+    margin-top: 50px;
+    padding-top: 20px;
+    left: 40%;
+}
+#documentationPopupContainerIn{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+}
+#DPLBlock1{
+    padding: 20px;
+}
+#DPHead{
+    display: flex;
+}
+#DPHeadLogo{
+    margin-right: 10px;
+    color: var(--textGray);
+    font-size: 1.25rem;
+}
+#DPHeadText h6{
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+#DPHeadText h6 span{
+    color: white;
+}
+#DPHeadText p{
+    font-size: 0.85rem;
+    font-weight: 500;
+    color: var(--textGray);
+}
+#DPHead:hover{
+    cursor: pointer;
+}
+#DPHead:hover #DPHeadLogo{
+    color: black;
+}
+#DPHead:hover #DPHeadText h6 span{
+    color: black;
+}
+#DPLinksContainer{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 5px;
+}
+.DPLCHead{
+    color: var(--textGray);
+}
+.DPLCHead:hover{
+    cursor: default!important;
+}
+.DPL:hover{
+    cursor: pointer;
+}
+#DPLBlock2{
+    background-color: var(--bgGray);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 10px;
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 10px;
+}
+.DPL a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.DPL a span{
+    color: var(--textGray);
+}
+.DPL a:hover  span{
+    color: black!important;
+}

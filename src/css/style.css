@@ -79,5 +79,5 @@
     z-index: -10;
     overflow: hidden;
     clip-path: polygon(0 0, 100% 0, 100% 50%, 0 70%);
-    height: 80vh;
+    height: 100vh;
 }

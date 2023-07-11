@@ -9,6 +9,10 @@
     <link rel="stylesheet" href="./src/css/productPopup.css">
     <!-- Solutions PopupCss -->
     <link rel="stylesheet" href="./src/css/solutionPopup.css">
+    <!-- Documentation Popup CSS -->
+    <link rel="stylesheet" href="./src/css/documentationPopup.css">
+    <!-- Resources Popup CSS -->
+    <link rel="stylesheet" href="./src/css/resourcesPopup.css">
     <!-- font Awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Animation css -->
@@ -23,8 +27,8 @@
             <ul>
                 <li id="productLink">Products</li>
                 <li id="solutionLink">Solutions</li>
-                <li>Developers</li>
-                <li>Resources</li>
+                <li id="documentationLink">Developers</li>
+                <li id="resourcesLink">Resources</li>
                 <li>Pricing</li>
             </ul>
         </div>
@@ -228,6 +232,64 @@
                         <div class="SPL"><a href="#"> <span><i class="fa-solid fa-book-open-reader"></i></span>&nbsp; Partner Ecosystem</a></div>
                         <div class="SPL"><a href="#"> <span><i class="fa-solid fa-comments"></i></span>&nbsp; Professional Services</a></div>
                     </div>
+                </div>
+            </div>
+        </div>
+        <!-- Documentation Popup -->
+        <div id="documentationPopupContainerOut" class="popUpClosed">
+            <div id="documentationPopupContainerIn">
+                <!-- DP= Documentation Popup -->
+                <div id="DPLBlock1">
+                    <div id="DPHead">
+                        <div id="DPHeadLogo"><i class="fa-solid fa-book-open"></i></div>
+                        <div id="DPHeadText">
+                            <h6>Documentation <span><i class="fa-solid fa-arrow-right"></i></span></h6>
+                            <p>Start integrating Stripe's products and tools.</p>
+                        </div>
+                    </div>
+                    <div id="DPLinksContainer">
+                        <!-- DPLC = Documentation Popup Links Container -->
+                        <div class="DPL DPLCHead">Get Started</div>
+                        <div class="DPL DPLCHead">Guides</div>
+                        <div class="DPL">Prebuilt Checkout</div>
+                        <div class="DPL">Accept online payments</div>
+                        <div class="DPL">Libraries and SDKs</div>
+                        <div class="DPL">Manage subscription</div>
+                        <div class="DPL">Plugins</div>
+                        <div class="DPL">Send Payments</div>
+                        <div class="DPL">Code Samples</div>
+                        <div class="DPL">Set up in-person Payments</div>
+                    </div>
+                </div>
+                <div id="DPLBlock2">
+                    <div class="DPL"><a href="#"> <span><i class="fa-solid fa-bars"></i></span>&nbsp; Full API Reference</a></div>
+                    <div class="DPL"><a href="#"> <span><i class="fa-brands fa-codepen"></i></span>&nbsp; API Changelog</a></div>
+                    <div class="DPL"><a href="#"> <span><i class="fa-solid fa-signal"></i></span>&nbsp; API Status</a></div>
+                    <div class="DPL"><a href="#"> <span><i class="fa-solid fa-clone"></i></span>&nbsp; Build a Stripe App</a></div>
+
+                </div>
+                
+            </div>
+        </div>
+        <!-- Resource Popup -->
+        <div id="resourcePopupContainerOut" class="popUpClosed">
+            <div id="resourcePopupContainerIn">
+                <!-- RPC= Resource Popup Container -->
+                <div id="RPCBlock1">
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-headset"></i></span>Support Center</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-pen-nib"></i></span>Blog</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-tag"></i></span>Support Plans</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-calendar"></i></span>Annual Conference</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-file"></i></span>Guides</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-envelope"></i></span>Contact Sales</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-user"></i></span>Customer Stories</a></div>
+                </div>
+                <div id="RPCBlock2">
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-suitcase"></i></span>Jobs</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-newspaper"></i></span>Stripe Press</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-newspaper"></i></span>News Room</a></div>
+                    <div class="RPL"><a href="#"><span><i class="fa-solid fa-handshake"></i></span>Become a Partner</a></div>
+                    
                 </div>
             </div>
         </div>

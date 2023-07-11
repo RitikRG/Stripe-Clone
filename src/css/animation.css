@@ -23,7 +23,7 @@
 
 .popUpClosed{
     height: 0px;
-    z-index: -100;
+    z-index: -1000;
 }
 .popUpOpen{
     transform-origin: 50% 0%;
