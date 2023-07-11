@@ -145,3 +145,40 @@ body{
     background-size: cover;
     box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2);
 }
+#heroBottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 20px;
+    padding: 50px 25px;
+}
+.companyLogo{
+    width: 100%;
+    height: 150px;
+    background-color: #0a2540;
+    background-size: cover;
+    background: center no-repeat;
+}
+#rocketium{
+    background: url(../../assets/heroDisplay/companyLogos/rocketium.png) no-repeat;
+}
+#nalli{
+    background: url(../../assets/heroDisplay/companyLogos/nalli.png) no-repeat;
+}
+#slack{
+    background: url(../../assets/heroDisplay/companyLogos/slack.png) no-repeat;
+}
+#jaypore{
+    background: url(../../assets/heroDisplay/companyLogos/jaypore.png) no-repeat;
+}
+#invideo{
+    background: url(../../assets/heroDisplay/companyLogos/invideo.png) no-repeat;
+}
+#zoom{
+    background: url(../../assets/heroDisplay/companyLogos/zoom.png) no-repeat;
+}
+#shopify{
+    background: url(../../assets/heroDisplay/companyLogos/shopify.png) no-repeat;
+}
+#amazon{
+    background: url(../../assets/heroDisplay/companyLogos/amazon.png) no-repeat;
+}
