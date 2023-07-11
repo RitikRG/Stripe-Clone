@@ -1,0 +1,61 @@
+/* Navbar CSS */
+#navBarContainer{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+    width: 100vw;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    padding:10px 30px;
+}
+
+/* Navbar Logo */
+#navBarContainer #logo{
+    width: 20%;
+}
+#navBarContainer #logo a{
+    font-size: 2rem;
+    font-weight: 650;
+    color: white;
+    text-decoration: none;
+}
+
+/* Navbar link heads */
+#navBarContainer #navHeads{
+    width: 50%;
+}
+#navBarContainer #navHeads ul{
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    height: 100%;
+}
+#navBarContainer #navHeads ul li:hover{
+    cursor: pointer;
+    color: var(--textGray);
+}
+
+/* Navbar signIn btn */
+#navBarContainer #signIn {
+    text-align: end;
+    width: 20%;
+}
+#navBarContainer #signIn #signInBtn{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #d5d1d147;
+    color: white;
+    font-size: 1.1rem;
+    font-weight:600;
+}
+#navBarContainer #signIn #signInBtn:hover{
+    cursor: pointer;
+}

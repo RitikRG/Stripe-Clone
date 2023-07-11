@@ -2,6 +2,7 @@
 /* Products Pop up */
 #productsPopupContainerOut{
     position: absolute;
+    z-index: 100;
     width: 60vw;
     padding-top: 20px;
     margin-top: 40px;

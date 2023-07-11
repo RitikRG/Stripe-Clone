@@ -1,5 +1,6 @@
 #resourcePopupContainerOut{
     position: absolute;
+    z-index: 100;
     width: 25vw;
     margin-top: 50px;
     padding-top: 20px;
