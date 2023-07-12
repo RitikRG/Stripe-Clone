@@ -1,11 +1,107 @@
 :root{
     --section2Bg:#0a2540;
+    --section2Blue:#00d4ff;
+    --designEl1Color:#80e9ff;
+    --designEl2Color:#0049e57a;
 }
 #section2Out{
     width: 100%;
     position: absolute;
-    height: 800px;
-    clip-path: polygon(100% 0, 100% 63%, 0 100%, 0 29%);
+    clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 12%);
     background-color: var(--section2Bg);
     top: 280vh;
+    padding-top: 200px;
+    overflow-y: visible;
+}
+#section2In{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+#section2Top{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+#section2TopText h6{
+    color: var(--section2Blue);
+    font-size: 1.1rem;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+#section2TopText h4{
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 450;
+    line-height: 1.4;
+    margin-bottom: 30px;
+}
+#section2TopText p{
+    color: var(--textGray);
+    margin-bottom: 30px;
+}
+#section2Btn{
+    background-color: var(--section2Blue);
+}
+#section2TopDisplay{
+    text-align: center;
+}
+#section2TopDisplay video{
+    border-radius: 15px;
+    box-shadow: 0px 35px 31px -17px rgba(0,0,0,0.56);
+}
+#section2Bottom{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 60px;
+    padding-bottom: 110px;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+#section2Bottom h6{
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 450;
+    border-left: 2px solid var(--section2Blue);
+    padding-left: 10px;
+    margin-bottom: 10px;
+}
+#section2Bottom p{
+    color: var(--textGray);
+    padding-left: 12px;
+}
+#section2BottomBtn{
+    background-color: var(--section2Bg);
+    color: var(--section2Blue);
+}
+#section2BottomBtn:hover{
+    box-shadow: none;
+}
+#designContainer{
+    background-color: white;
+    margin-top: 150px;
+    height: 500px;
+    clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
+    text-align: end;
+    padding-top: 0px;
+}
+
+.designEl{
+    
+}
+#designEl1{
+    background-color: var(--designEl1Color);
+    width: 40%;
+    height: 150px;
+    margin-left: 60%;
+    margin-right: 0;
+    clip-path: polygon(0 50%, 100% 0, 100% 40%, 0 100%);
+}
+#designEl2{
+    background-color: var(--designEl2Color);
+    height: 100px;
+    width: 200px;
+    clip-path: polygon(0 30%, 100% 0, 100% 65%, 0 90%);
+    margin-left: 80%;
+    transform: translateY(-100%);
 }
