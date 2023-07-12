@@ -70,6 +70,14 @@
     color: var(--textGray);
     padding-left: 12px;
 }
+#block3 p a{
+    text-decoration: none;
+    color: var(--section2Blue);
+    transition: all 0.25s;
+}
+#block3 p a:hover{
+    color: var(--designEl2Color);
+}
 #section2BottomBtn{
     background-color: var(--section2Bg);
     color: var(--section2Blue);
@@ -79,16 +87,13 @@
 }
 #designContainer{
     background-color: white;
-    margin-top: 150px;
+    margin-top: 10px;
     height: 500px;
     clip-path: polygon(0 40%, 100% 0, 100% 100%, 0 100%);
     text-align: end;
     padding-top: 0px;
 }
 
-.designEl{
-    
-}
 #designEl1{
     background-color: var(--designEl1Color);
     width: 40%;

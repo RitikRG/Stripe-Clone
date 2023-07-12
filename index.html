@@ -19,6 +19,10 @@
     <link rel="stylesheet" href="./src/css/section1.css">
     <!-- Section 2 CSS -->
     <link rel="stylesheet" href="./src/css/section2.css">
+    <!-- Section 3 CSS -->
+    <link rel="stylesheet" href="./src/css/section3.css">
+    <!-- Section 4 CSS -->
+    <link rel="stylesheet" href="./src/css/section4.css">
     <!-- font Awesome cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Animation css -->
@@ -366,6 +370,8 @@
         </div>  
     </div>
     <!-- Section 1 ends -->
+
+    <!-- Section 2 -->
     <div id="section2Out">
         <div id="section2In">
             <div id="section2Top">
@@ -397,7 +403,7 @@
                 <div id="block3" class="section2BottomBlock">
                     <video src="./assets/section2/block2/b3.webm" autoplay loop muted></video>
                     <h6>Explore prebuilt integrations</h6>
-                    <p>Integrate with systems including Adobe, Salesforce, and NetSuite, or sync Stripe data to your warehouse. </p>
+                    <p>Integrate with systems including Adobe, Salesforce, and NetSuite, or sync <a href="#"> Stripe data </a> to your warehouse. </p>
                     <button class="heroBtn" id="section2BottomBtn">View Connectors <i class="fa-solid fa-arrow-right" id="hoverArr"> </i> <i class="fa-solid fa-angle-right" id="notHover"></i></button>
 
                 </div>
@@ -412,13 +418,64 @@
             </div> 
         </div>
         <div id="designContainer">
-            <div id="designEl1" class="designEl"></div>
-            <div id="designEl2" class="designEl"></div>
+                <div id="designEl1" class="designEl"></div>
+                <div id="designEl2" class="designEl"></div>
+            </div>
+    </div>
+    <!-- Section 2 end -->
+
+    <!-- Section 3 -->
+    <div id="section3Out">
+        <div id="section3In">
+            <h6>Why Stripe</h6>
+            <h2>A technology-first approach to payments and finance</h2>
+            <div id="section3BlockContainer">
+                <div class="section3Block">
+                    <video src="./assets/section3/b1.webm" autoplay muted loop></video>
+                    <h6>Close to the metal</h6>
+                    <p>From <a href="#"> direct integrations </a>with card networks and banks to checkout flows in the browser, we operate on and optimize at every level of the financial stack. </p>
+                </div>
+                <div class="section3Block">
+                    <video src="./assets/section3/b2.webm" autoplay muted loop></video>
+                    <h6>Fastest-improving platform</h6>
+                    <p>We release <a href="#"> hundreds of features</a> and improvements each year to help you stay ahead of industry shifts. (On average, we deploy our production API 16x per day.) </p>
+                </div>
+                <div class="section3Block">
+                    <video src="./assets/section3/b3.webm" autoplay muted loop></video>
+                    <h6>Battle-tested reliability</h6>
+                    <p> Our systems operate with <a href="#"> 99.99%+</a> uptime and are highly scalable and redundant. Stripe is certified to the highest compliance standards. </p>
+                </div>
+                <div class="section3Block">
+                    <video src="./assets/section3/b4.webm" autoplay muted loop></video>
+                    <h6>Intelligent optimizations</h6>
+                    <p>Our machine learning models train on <a href="#"> billions</a> of data points and help increase revenue across conversion, fraud, revenue recovery, and more. </p>
+                </div>
+            </div>
         </div>
     </div>
-    
-    #0048e5
+    <!-- Section 3 end -->
 
+    <!-- Section 4 -->
+    <div id="section4Out">
+        <div id="section4In">
+            <div id="section4Text">
+                <h6>Enterprise reinvention</h6>
+                <h2>Bring agility to your enterprise</h2>
+                <p> You can use Stripe not only to accept payments but also to quickly support new markets, upgrade existing systems and tools, go direct-to-consumer, and engage customers with subscriptions and marketplaces. Get expert integration guidance from our <a href="#"> professional services team</a> and <a href="#"> certified partners</a> so you can see value with Stripe faster. </p>
+                <button class="heroBtn" id="section4Btn">Contact Sales <i class="fa-solid fa-arrow-right" id="hoverArr"> </i> <i class="fa-solid fa-angle-right" id="notHover"></i></button>
+            </div>
+            <div id="section4Display">
+                <div id="carouselDetailText"></div>
+                <div id="carouselDisplay">
+                    <div id="bmwDisplay" class="CDScreen"></div>
+                    <div id="amazonDisplay" class="CDScreen"></div>
+                    <div id="maerskDisplay" class="CDScreen"></div>
+                    <div id="twilloDisplay" class="CDScreen"></div>
+                </div>
+                <div id="carouselIcons"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- JS -->
     <script src="./src/js/main.js"></script>
@@ -426,6 +483,8 @@
     <script src="./src/js/scrollEff.js"></script>
     <!-- Popup Open JS -->
     <script src="./src/js/popUp.js"></script>
+    <!-- Carousel JS -->
+    <script src="./src/js/carousel.js"></script>
     
 </body>
 </html>

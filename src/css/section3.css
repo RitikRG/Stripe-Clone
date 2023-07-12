@@ -1,0 +1,53 @@
+:root{
+    --section3Text:#6e67ff;
+}
+#section3Out{
+    width: 100vw;
+    background-color: white;
+    position: absolute;
+    top: 440vh;
+}
+#section3In{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+#section3In h6{
+    color: var(--section3Text);
+    font-size: 1.1rem;
+}
+#section3In h2{
+    font-size: 2.25rem;
+    font-weight: 550;
+    width: 75%;
+    margin-top: 20px;
+}
+#section3BlockContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    margin-top: 20px;
+}
+.section3Block h6{
+    border-left: 2px solid var(--section3Text);
+    padding-left: 10px;
+    margin-top: 20px;
+}
+.section3Block p{
+    color: var(--textGray);
+    padding-left: 12px;
+    width: 90%;
+    margin-top: 20px;
+}
+.section3Block p a{
+    text-decoration: none;
+    color: var(--section3Text);
+    font-weight: 500;
+    transition: all 0.25s;
+}
+.section3Block p a:hover{
+    color: black;
+}

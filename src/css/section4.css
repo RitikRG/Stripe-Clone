@@ -1,0 +1,94 @@
+:root{
+    --section4Bg:#f6f9fc;
+    --section4Text:#635bff;
+}
+
+#section4Out{
+    width: 100%;
+    position: absolute;
+    background-color: var(--section4Bg);
+    top: 520vh;
+
+}
+#section4In{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+#section4Text h6{
+    color: var(--section4Text);
+    font-size: 1.2rem;
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+#section4Text h2{
+    font-size: 2.2rem;
+    font-weight: 550;
+    margin-bottom: 30px;
+}
+#section4Text p{
+    width: 70%;
+    color: var(--textGray);
+    font-weight: 450;
+    margin-bottom: 30px;
+}
+#section4Text p a{
+    text-decoration: none;
+    color: var(--section4Text);
+    font-weight: 500;
+    transition: all 0.25s;
+}
+#section4Text p a:hover{
+    color: black;
+}
+#section4Btn{
+    background-color: var(--section4Text);
+    color: white;
+}
+
+
+/* Carousel Section */
+
+#section4Display{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+#carouselDisplay{
+    width: 100%;
+    overflow-x: scroll;
+    display: flex;
+    scroll-snap-type: x mandatory;
+    
+}
+.CDScreen{
+    display: inline;
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    flex: 1 0 100%;
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
+}
+.CDScreen img{
+    width: 100%;
+    height: 150px;
+}
+#bmwDisplay{
+    background: url(../../assets/section4/bmw.webp) center no-repeat;
+    background-size: cover;    
+}
+#amazonDisplay{
+    background: url(../../assets/section4/amazon.jpg) center no-repeat;
+    background-size: cover;
+}
+#maerskDisplay{
+    background: url(../../assets/section4/maersk.jpeg) center no-repeat;
+    background-size: cover;
+}
+#twilloDisplay{
+    background: url(../../assets/section4/twillo.jpeg) center no-repeat;
+    background-size: cover;
+}
