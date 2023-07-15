@@ -1,0 +1,171 @@
+:root{
+    --designEl1:#80eaff93;
+    --designEL2:#7a73ff91;
+    --sdection5Bg:#0a2540;
+    --section5Text:#00cbf7;
+}
+
+
+#section5Out{
+    position: absolute;
+    width: 100%;
+    top:650vh
+}
+
+#section5El1{
+    width: 10%;
+    height: 100px;
+    margin-left: 10%;
+    background-color: var(--designEl1);
+    clip-path: polygon(0 20%, 100% 0, 100% 70%, 0 100%);
+    transform: translateY(80%);
+}
+#section5El2{
+    width: 30%;
+    height: 100px;
+    background-color: var(--designEL2);
+    clip-path: polygon(0 60%, 100% 0, 100% 40%, 0 100%);
+
+}
+
+#section5BgContainer{
+    clip-path: polygon(0 25%, 100% 0, 100% 100%, 0% 100%);
+    transform: translateY(-25%);
+    background: url(../../assets/section5/section5Bg.gif) center no-repeat;
+    filter: blur(8px);
+    background-size: cover;
+    padding: 250px 0px 200px ;
+    height: 800px;
+}
+#section5In{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 40px;
+    column-gap: 10px;
+    transform: translateX(-50%) translateY(-170%);
+    position: absolute;
+    z-index: 10;
+}
+
+#section5Top{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#section5Top h6{
+    color: var(--section5Text);
+    font-size: 1.35rem;
+    font-weight: 450;
+    margin-bottom: 20px;
+}
+#section5Top h4{
+    color: white;
+    font-size: 2.65rem;
+    font-weight: 450;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+#section5Top p{
+    color: var(--textGray);
+    width: 75%;
+    font-weight: 500;
+}
+#section5LowerStart{
+    grid-column-start: 1;
+}
+.section5Lower{
+    width: 90%;
+}
+.section5Lower h6{
+    color: white;
+    border-left: 2px solid var(--section5Text);
+    padding-left: 10px;
+    font-size: 1.1rem;
+    font-weight: 450;
+    margin-bottom: 10px;
+}
+.section5Lower p{
+    color: var(--textGray);
+}
+.section5Lower p a{
+    text-decoration: none;
+    color: var(--section5Text);
+}
+
+#section5LowerText{
+    width: 100%;
+    max-width: 1200px;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-40%);
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+}
+#section5LowerTextB1 h6{
+    font-size: 1.65rem;
+    font-weight: 550;
+    margin-bottom: 40px;
+}
+#section5LowerTextB1 p{
+    color: var(--textGray);
+    font-weight: 450;
+    width: 90%;
+    margin-bottom: 40px;
+}
+#section5LowerTextB1 p a{
+    text-decoration: none;
+    color: var(--section4Text);
+}
+#section5LowerTextB1BtnContainer{
+    display: flex;
+}
+#section5Btn1{
+    background-color: var(--section4Text);
+    color: white;
+    margin-right: 20px;
+}
+#section5Btn{
+    color: var(--section4Text);
+}
+.section5LowerTextB h6{
+    font-size: 0.9rem;
+    font-weight: 450;
+    border-left: 2px var(--section4Text) solid;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+.section5LowerTextB p{
+    color: var(--textGray);
+    font-weight: 450;
+    width: 80%;
+    padding-left: 12px;
+    margin-bottom: 20px;
+}
+#section5LowerDesign{
+    width: 100%;
+    margin-top: 40px;
+}
+#s5LowerEl1{
+    width: 90%;
+    height: 150px;
+    background-color: var(--designEL2);
+    clip-path: polygon(0 60%, 100% 0, 100% 40%, 0 100%);
+
+}
+#s5LowerEl2{
+    width: 90%;
+    height: 150px;
+    background-color: var(--designEl1);
+    clip-path: polygon(0 60%, 100% 0, 100% 40%, 0 100%);
+    margin-left: 10%;
+    transform: translateY(-80%);
+}
+#s5LowerMid{
+    width: 50%;
+    height: 400px;
+    background-color: white;
+    margin-left: 50%;
+    transform: translateX(-50%) translateY(-100%);
+}
