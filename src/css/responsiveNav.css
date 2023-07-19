@@ -1,0 +1,177 @@
+@media only screen and (max-width: 780px){
+    #navHeads{
+        display: none;
+    }
+    #signIn{
+        display: none;
+    }
+    /* disabling popups */
+    #productsPopupContainerOut{
+        display: none;
+    }
+    #solutionsPopupContainerOut{
+        display: none;
+    }
+    #documentationPopupContainerOut{
+        display: none;
+    }
+    #resourcePopupContainerOut{
+        display: none;
+    }
+
+    /* Hero section */
+    #heroBg{
+        height: 50vh;
+    }
+    #heroText{
+        padding-left: 40px;
+    }
+    #heroText h4{
+        font-size: 3.5rem;
+        color: black;
+        width: 100%;
+    }
+    #heroText p{
+        width: 100%;
+        font-size: 1.1rem;
+    }
+    #heroBtnContainer{
+        width: 100%;
+        justify-content: space-evenly;
+    }
+    #heroDisplay{
+        display: none;
+    }
+    #heroBottom{
+        grid-template-columns: 1fr 1fr;
+    }
+    /* Section 1 */
+    #section1Out{
+        padding-top: 40px;
+        margin-top: 40px;
+        padding-left: 40px;
+    }
+    #section1Text{
+        display: block!important;
+    }
+    #section1Text div{
+        display: block!important;
+        width: 100%;
+    }
+    #section1Text h2{
+        width: 100%!important;
+        font-size: 3.5rem;
+    }
+
+    /* Section 2 */
+    #section2Out{
+        clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 5%)!important;
+        padding-bottom: 50px;
+    }
+    #section2In{
+        padding-left: 20px;
+    }
+    #section2Top{
+        display: block!important;
+    }
+    #section2TopDisplay{
+        margin-top: 50px;
+    }
+    #section2Bottom{
+        grid-template-columns: 1fr!important;
+    }
+    #designEl1{
+        height: 150px!important;
+        clip-path: polygon(100% 0, 100% 60%, 0 100%, 0 40%)!important;
+    }
+    #designEl2{
+        height: 120px!important;
+        clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%)!important;
+    }
+
+    /* Section 3 */
+    #section3Out{
+        top: 560vh!important;
+    }
+    #section3In{
+        padding-left:40px ;
+    }
+    #section3BlockContainer{
+        grid-template-columns: 1fr!important;
+    }
+    /* section 4 */
+    #section4Out{
+        top: 700vh!important;
+    }
+    #section4In{
+        padding-left: 20px;
+    }
+    .CDScreen{
+        grid-template-columns: 1fr!important;
+    }
+    .carouselImg{
+        width: 90%!important;
+        height: 250px!important;
+        margin-top: 20px;
+    }
+    .carouselLogo{
+        display: none!important;
+    }
+
+    /* section 5 */
+    #section5Out{
+        top: 900vh!important;
+    }
+    #section5El1{
+        clip-path: polygon(0 20%, 100% 0%, 100% 40%, 0 60%)!important;
+        transform: translateY(150%)!important;
+    }
+    #section5El2{
+        clip-path: polygon(0 25%, 100% 0%, 100% 30%, 0 55%)!important;
+        height: 150px!important;
+        transform: translateY(50%);
+    }
+    #section5BgContainer{
+        height: 1200px!important;
+        clip-path: polygon(0 25%, 100% 15%, 100% 100%, 0% 100%)!important;       
+    }
+    #section5In{
+        transform: translateX(-50%) translateY(-160%)!important;
+        display: block!important;
+        padding-left: 20px;
+    }
+    #section5LowerStart{
+        display: block!important;
+        grid-column-start: 0;
+    }
+    .section5Lower{
+        margin-top: 20px;
+    }
+    .section5Lower h6{
+        font-size: 1.85rem!important;
+    }
+    #section5LowerText{
+        grid-template-columns: 1fr!important;
+        padding-left: 20px;
+        padding-top: 60px;
+        row-gap: 40px!important;
+    }
+    #section5LowerDesign{
+        margin-top: 0px!important;
+        transform: translateY(-30%);
+    }
+    #s5LowerMid{
+        width: 80%!important;
+    }
+    #s5LowerEl1{
+        width: 95%!important;
+    }
+    #s5LowerEl2{
+        width: 95%!important;
+        margin-left: 5%!important;
+    }
+    /* footer */
+    #footerOutContainer{
+        top: 1400vh !important;
+    }
+}

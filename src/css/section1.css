@@ -29,9 +29,12 @@
     font-size: 1.2rem;
     margin-bottom: 30px;
 }
-#section1TextBlock1 h2{
+#section1Text h2{
     font-size: 1.75rem;
     font-weight: 550;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 50%;
 }
 #section1TextBlock1 p{
     color: var(--textGray);
