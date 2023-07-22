@@ -162,25 +162,40 @@ body{
 }
 #rocketium{
     background: url(../../assets/heroDisplay/companyLogos/rocketium.png) no-repeat;
+    background-position: center;
 }
 #nalli{
     background: url(../../assets/heroDisplay/companyLogos/nalli.png) no-repeat;
+    background-position: center;
+
 }
 #slack{
     background: url(../../assets/heroDisplay/companyLogos/slack.png) no-repeat;
+    background-position: center;
+
 }
 #jaypore{
     background: url(../../assets/heroDisplay/companyLogos/jaypore.png) no-repeat;
+    background-position: center;
+
 }
 #invideo{
     background: url(../../assets/heroDisplay/companyLogos/invideo.png) no-repeat;
+    background-position: center;
+
 }
 #zoom{
     background: url(../../assets/heroDisplay/companyLogos/zoom.png) no-repeat;
+    background-position: center;
+
 }
 #shopify{
     background: url(../../assets/heroDisplay/companyLogos/shopify.png) no-repeat;
+    background-position: center;
+
 }
 #amazon{
     background: url(../../assets/heroDisplay/companyLogos/amazon.png) no-repeat;
+    background-position: center;
+
 }

@@ -1,4 +1,69 @@
+
+/* Small display exclusive */
+
+@media only screen and (max-width: 480px){
+    #heroSection{
+        top: 15%!important;
+    }
+    #heroText h4{
+        font-size: 2.5rem!important;
+        color: black;
+        width: 100%;
+    }
+    #heroText p{
+        width: 100%;
+        font-size: 0.85rem!important;
+    }
+    #heroBtnContainer{
+        width: 100%;
+        justify-content: space-between;
+    }
+    .heroBtn{
+        font-size: 0.75rem!important;
+    }
+    #section3In h2{
+        font-size: 1.75rem!important;
+        width: 100%!important;
+    }
+    .CDScreen .carouselImg{
+        height: 200px!important;
+    }
+    
+    #section5Top h4{
+        font-size: 2.2rem!important;
+    }
+    .section5Lower h6{
+        font-size: 0.85rem!important;
+    }
+    #s5LowerMid{
+        width: 70%!important;
+    }
+}
+
+
+/* mid display exclusive */
+
+@media only screen and (max-width: 780px) and (min-width:480px){
+
+    .carouselImg{
+        width: 90%!important;
+        height: 250px!important;
+    }
+    .section5Lower h6{
+        font-size: 1.85rem!important;
+    }
+    #s5LowerMid{
+        width: 80%!important;
+    }
+
+}
+
+/* small to mid display common */
+
 @media only screen and (max-width: 780px){
+    body{
+        overflow-x: hidden;
+    }
     #navHeads{
         display: none;
     }
@@ -50,6 +115,7 @@
         padding-top: 40px;
         margin-top: 40px;
         padding-left: 40px;
+        top: 1100px!important;
     }
     #section1Text{
         display: block!important;
@@ -62,11 +128,14 @@
         width: 100%!important;
         font-size: 3.5rem;
     }
-
+    #section1Display{
+        transform: translateX(-20px)!important;
+    }
     /* Section 2 */
     #section2Out{
-        clip-path: polygon(100% 0, 100% 85%, 0 100%, 0 5%)!important;
+        clip-path: polygon(100% 0, 100% 85%, 0 80%, 0 5%)!important;
         padding-bottom: 50px;
+        top: 2600px!important;
     }
     #section2In{
         padding-left: 20px;
@@ -76,6 +145,10 @@
     }
     #section2TopDisplay{
         margin-top: 50px;
+    }
+    #section2TopDisplay video{
+        width: 100vw!important;
+        transform: translateX(-20px)!important;
     }
     #section2Bottom{
         grid-template-columns: 1fr!important;
@@ -91,7 +164,7 @@
 
     /* Section 3 */
     #section3Out{
-        top: 560vh!important;
+        top: 5050px!important;
     }
     #section3In{
         padding-left:40px ;
@@ -101,7 +174,7 @@
     }
     /* section 4 */
     #section4Out{
-        top: 700vh!important;
+        top: 6400px!important;
     }
     #section4In{
         padding-left: 20px;
@@ -111,7 +184,6 @@
     }
     .carouselImg{
         width: 90%!important;
-        height: 250px!important;
         margin-top: 20px;
     }
     .carouselLogo{
@@ -120,7 +192,7 @@
 
     /* section 5 */
     #section5Out{
-        top: 900vh!important;
+        top: 7700px!important;
     }
     #section5El1{
         clip-path: polygon(0 20%, 100% 0%, 100% 40%, 0 60%)!important;
@@ -136,7 +208,6 @@
         clip-path: polygon(0 25%, 100% 15%, 100% 100%, 0% 100%)!important;       
     }
     #section5In{
-        transform: translateX(-50%) translateY(-160%)!important;
         display: block!important;
         padding-left: 20px;
     }
@@ -147,9 +218,7 @@
     .section5Lower{
         margin-top: 20px;
     }
-    .section5Lower h6{
-        font-size: 1.85rem!important;
-    }
+    
     #section5LowerText{
         grid-template-columns: 1fr!important;
         padding-left: 20px;
@@ -160,9 +229,7 @@
         margin-top: 0px!important;
         transform: translateY(-30%);
     }
-    #s5LowerMid{
-        width: 80%!important;
-    }
+    
     #s5LowerEl1{
         width: 95%!important;
     }
@@ -172,6 +239,17 @@
     }
     /* footer */
     #footerOutContainer{
-        top: 1400vh !important;
+        top: 10000px !important;
+        padding: 50px 0 50px 0!important;
+    }
+    #footer{
+        grid-template-columns: 1fr 1fr!important;
+        padding: 0 10px 0px 10px;
+        row-gap: 20px;
+    }
+    #footerHead{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        height: 150px;
     }
 }
