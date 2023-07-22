@@ -62,7 +62,7 @@
 
 @media only screen and (max-width: 780px){
     body{
-        overflow-x: hidden;
+        overflow-x: hidden!important;
     }
     #navHeads{
         display: none;
