@@ -130,6 +130,8 @@
     }
     #section1Display{
         transform: translateX(-20px)!important;
+        overflow-x: hidden;
+
     }
     /* Section 2 */
     #section2Out{
