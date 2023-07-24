@@ -13,3 +13,6 @@ With this project I  wanted to strengthen my basics and hence decided to use Van
 # Want to contribue?
 I am sorry but this particular project is a personal project of mine so I will not be merging your PRs but if you find any bug in the site please do report it, I will
 be really thankful for it.
+
+## <a href="https://stripeclonebyrg.netlify.app/">Check it out</a>
+
